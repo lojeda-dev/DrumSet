@@ -11,7 +11,7 @@ nav {
     height: 5em;
     display: flex;
     justify-content: space-between;
-    background-color: #231a58;
+    background-color: #afbdc5;
 }
 
 .div-a {
@@ -33,7 +33,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
+}
+
+.p-principal {
+    font-size: 1.5em;
 }
 
 ul {
@@ -51,7 +55,7 @@ a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #a2dd6b;
+    color: #67587c;
 }
 
 .a-nav {
@@ -62,8 +66,8 @@ a {
 
 .principal {
     display: flex;
-    background-color: #a2dd6b;
-    color: #231a58;
+    background-color: #afbdc5;
+    color: #67587c;
 }
 
 .container-img-principal {
@@ -91,7 +95,7 @@ a {
     flex-wrap: wrap;
     padding: 1em;
     justify-content: center;
-    background-color: #231a58;
+    background-color: #67587c;
 }
 
 .cards {
@@ -110,35 +114,30 @@ a {
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .container-descripcion-cards {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 40%;
     border-radius: 10px;
-    background-color: #a2dd6b;
-    color: #231a58;
-}
-
-.ul-container-cards {
-    display: flex;
-    flex-direction: column;
+    background-color: #afbdc5;
+    color: #251b34;
+    padding: 1.5em;
+    justify-content: center;
 }
 
 .formulario {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #a2dd6b;
-    color: #231a58;
+    background-color: #afbdc5;
+    color: #67587c;
 }
 
-input {
-    width: 40em;
+h3{
+    font-size: 2.5em;
 }
 
 form {
@@ -146,10 +145,18 @@ form {
     flex-direction: column;
 }
 
-button, input{
-    color: #231a58;
+button,
+input {
+    color: #67587c;
     background: transparent;
-    border: 1px solid #231a58;
+    border: 1px solid #67587c;
+    width: 40em;
+    height: 3em;
+}
+
+button:hover{
+    background-color: #67587c;
+    color: #afbdc5;
 }
 
 .container-form {
@@ -160,7 +167,7 @@ button, input{
 
 footer {
     height: 5em;
-    background-color: #231a58;
+    background-color: #afbdc5;
 }
 
 .logo-footer {
