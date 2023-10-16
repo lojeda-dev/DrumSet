@@ -70,7 +70,7 @@ a {
 }
 
 .a-nav {
-    border-radius: 1000px;
+    border-radius: 100px;
     border: 2px solid;
     padding: 5px;
 }
@@ -78,7 +78,7 @@ a {
 .principal {
     display: flex;
     background-color: #afbdc5;
-    color: #67587c;
+    color: #251b34;
 }
 
 .container-img-principal {
@@ -147,10 +147,11 @@ h4 {
 
 .formulario {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #afbdc5;
-    color: #67587c;
+    color: #251b34;
+    padding: 3em;
 }
 
 h3 {
@@ -162,18 +163,36 @@ form {
     flex-direction: column;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    font-size: 3em;
+}
+
+h6{
+    font-size: 2em;
+}
+
+h5,h6{
+    color: #251b34;
+    margin: 10px;
+}
+
 button,
 input {
-    color: #67587c;
+    color: #251b34;
     background: transparent;
     border: transparent;
-    border-bottom: 1px solid #67587c;
+    border-bottom: 1px solid #251b34;
     width: 40em;
     height: 3em;
 }
 
 button:hover{
-    background-color: #67587c;
+    background-color: #251b34;
     color: #afbdc5;
 }
 
@@ -206,4 +225,35 @@ footer:hover {
 .whatsapp:hover {
     width: 3.5em;
     transition: .2s;
+}
+
+@media screen and (min-width: 360px){
+    
+}
+
+@media screen and (max-width: 720px){
+    .container-img-principal{
+        display: none;
+    }
+    .container-descripcion{
+        width: 100%;
+        padding: 5em;
+    }
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards{
+        width: 75%;
+    }
+    .info{
+       display: none;
+    }
+    
+    .formulario{
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        height: 20em;
+    }
 }
