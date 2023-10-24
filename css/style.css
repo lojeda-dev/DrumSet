@@ -81,6 +81,7 @@ h2 {
 
 .p-principal {
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .principal {
@@ -159,11 +160,12 @@ h4 {
 
 .formulario {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     background-color: #afbdc5;
     color: #251b34;
     padding: 3em;
+    width: 100%;
 }
 
 h3 {
@@ -180,10 +182,6 @@ form {
     flex-direction: column;
 }
 
-h5 {
-    font-size: 3em;
-}
-
 h6 {
     font-size: 2em;
 }
@@ -192,6 +190,10 @@ h5,
 h6 {
     color: #251b34;
     margin: 10px;
+}
+
+h5 {
+    font-size: 3em;
 }
 
 button,
@@ -213,7 +215,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
 }
 
 /*FOOTER*/
@@ -230,11 +231,6 @@ footer {
     width: 3em;
 }
 
-footer:hover {
-    transition: 1s;
-    justify-content: space-around;
-}
-
 .facebook:hover,
 .instagram:hover,
 .twitter:hover,
@@ -243,7 +239,7 @@ footer:hover {
     transition: .2s;
 }
 
-/*RESPONSIVE DESIGN*/
+/*RESPONSIVE DESIGN MOBILE*/
 
 @media screen and (500px > width) {
     .container-img-principal {
@@ -302,4 +298,16 @@ footer:hover {
     button {
         width: 100%;
     }
+
+    .info{
+        width: 100%;
+    }
+
+    .ul-footer{
+        width: 100%;
+        justify-content: space-evenly;
+    }
 }
+
+/*RESPONSIVE TABLET*/
+
