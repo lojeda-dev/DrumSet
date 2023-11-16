@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <video autoplay loop muted plays-inline class="video">
+        <source src="video/clip-drums.mp4" type="video/mp4">
+    </video>
     <header>
         <nav>
             <div class="div-a">
@@ -20,20 +23,22 @@
                 </a>
             </div>
             <ul class="ul-nav">
-                <li><a class="a-nav" href="#baterias">Baterías</a></li>
-                <li><a class="a-nav" href="#contacto">Contacto</a></li>
+                <li class="li-nav"><a class="a-nav" href="#baterias">Baterías</a></li>
+                <li class="li-nav"><a class="a-nav" href="#accesorios">Accesorios</a></li>
+                <li class="li-nav"><a class="a-nav" href="#contacto">Contacto</a></li>
             </ul>
+            <div class="menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </nav>
     </header>
     <main class="principal">
-        <div class="container-img-principal">
-            <img class="img-principal" src="imagenes/generica.svg" alt="">
-        </div>
         <div class="container-descripcion">
             <h2>DrumSet</h2>
-            <p class="p-principal">Sitio dedicado a uno de los instrumentos mas importantes de la historia de la música
-                en el cual trataremos de hacer una
-                humilde eleccion entre las mejores 6 marcas del mundo.
+            <p class="p-principal">SITIO DEDICADO A UNO DE LOS INSTRUMENTOS MAS IMPORTANTES DE LA HISTORIA MUSICAL. EN
+                EL CUAL TRATAREMOS DE HACER UNA HUMILDE ELECCION ENTRE LAS 6 MEJORES MARCAS DEL MUNDO.
             </p>
         </div>
     </main>
@@ -74,7 +79,8 @@
                     Mapex
                 </h4>
                 <p>
-                    La marca MAPEX fue creada como acrónimo de <strong>M</strong>usic <strong>A</strong>nd <strong>P</strong>ercussion <strong>EX</strong>cellence y
+                    La marca MAPEX fue creada como acrónimo de <strong>M</strong>usic <strong>A</strong>nd
+                    <strong>P</strong>ercussion <strong>EX</strong>cellence y
                     refleja la
                     comprensión de la relación entre un intérprete y su instrumento, el híbrido de maestría musical e
                     instrumento que distingue a un gran músico de un gran intérprete.
@@ -128,10 +134,56 @@
             </div>
         </div>
     </section>
+
+    <section class="accesorios" id="accesorios">
+
+        <div class="container-intro-accesorios">
+            <h5 class="h5-accesorio">Accesorios</h5>
+            <p class="p-accesorios">Les recomendamos las siguientes marcas.</p>
+        </div>
+
+        <div class="container-accesorio">
+
+            <div class="acc">
+                <h6 class="h6-accesorios">PLATILLOS ZILDJIAN</h6>
+                <div class="container-img-accesorios">
+                    <img class="img-accesorio" src="imagenes/zidjian.webp" alt="">
+                </div>
+                <a class="a-accesorios" href="https://zildjian.com/" target="_blank">IR AL SITIO</a>
+            </div>
+
+            <div class="acc">
+                <h6 class="h6-accesorios">PARCHES REMO</h6>
+                <div class="container-img-accesorios">
+                    <img class="img-accesorio" src="imagenes/REMO.png" alt="">
+                </div>
+                <a class="a-accesorios" href="https://remo.com/" target="_blank">IR AL SITIO</a>
+            </div>
+
+            <div class="acc">
+                <h6 class="h6-accesorios">PALILLOS VIC FIRTH</h6>
+                <div class="container-img-accesorios">
+                    <img class="img-accesorio" src="imagenes/VIC-FIRTH.webp" alt="">
+                </div>
+                <a class="a-accesorios" href="https://vicfirth.com/" target="_blank">IR AL SITIO</a>
+            </div>
+
+            <div class="acc">
+                <h6 class="h6-accesorios">FUNDAS PANTER CASE</h6>
+                <div class="container-img-accesorios">
+                    <img class="img-accesorio" src="imagenes/panter-case.webp" alt="">
+                </div>
+                <a class="a-accesorios" href="https://www.estuchespantercase.com.ar/" target="_blank">IR AL SITIO</a>
+            </div>
+
+        </div>
+
+    </section>
+
     <section class="formulario" id="contacto">
         <div class="info">
-            <h5>¿Querés sumarte a la comunidad?</h5>
-            <h6>Envianos tu consulta >></h6>
+            <h5 class="h5-form">¿Querés sumarte a la comunidad?</h5>
+            <h6 class="h6-form">Envianos tu consulta >></h6>
         </div>
         <div class="container-form">
             <h3>Contacto</h3>
@@ -145,16 +197,19 @@
     </section>
     <footer>
         <ul class="ul-footer">
-            <li><a class="whatsapp" href="https://www.whatsapp.com/" target="_blank"><img class="logo-footer whatsapp"
-                        src="imagenes/whatsapp.png"></a></li>
-            <li><a class="instagram" href="https://www.instagram.com/" target="_blank"><img class="logo-footer instagram"
-                        src="imagenes/logotipo-de-instagram.png"></a></li>
-            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><img class="logo-footer facebook"
-                        src="imagenes/facebook.png"></a></li>
-            <li><a class="twitter" href="https://twitter.com/" target="_blank"><img class="logo-footer twitter" src="imagenes/gorjeo.png"></a>
+            <li class="li-footer"><a class="whatsapp" href="https://www.whatsapp.com/" target="_blank"><img
+                        class="logo-footer whatsapp" src="imagenes/whatsapp.png"></a></li>
+            <li class="li-footer"><a class="instagram" href="https://www.instagram.com/" target="_blank"><img
+                        class="logo-footer instagram" src="imagenes/logotipo-de-instagram.png"></a></li>
+            <li class="li-footer"><a class="facebook" href="https://www.facebook.com/" target="_blank"><img
+                        class="logo-footer facebook" src="imagenes/facebook.png"></a></li>
+            <li class="li-footer"><a class="twitter" href="https://twitter.com/" target="_blank"><img
+                        class="logo-footer twitter" src="imagenes/gorjeo.png"></a>
             </li>
         </ul>
+        <p class="p-footer">Desarrollado por <strong>Leonel Ojeda</strong>.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
