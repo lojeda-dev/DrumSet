@@ -82,12 +82,12 @@ a {
 
 /* Menu hamburguesa */
 
-.ul-nav.active{
+.ul-nav.active {
     display: flex;
     top: 0;
 }
 
-.menu{
+.menu {
     display: none;
     flex-direction: column;
     cursor: pointer;
@@ -274,7 +274,7 @@ h4 {
     text-decoration: none;
 }
 
-.a-accesorios:hover{
+.a-accesorios:hover {
     opacity: 0.5;
 }
 
@@ -303,6 +303,7 @@ form {
 .info {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .h6-form {
@@ -416,24 +417,25 @@ footer {
     }
 
     .container-cards {
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
 
-    .cards {
-        width: 75%;
+    .cards{
+       width: 75% !important;
     }
 
-    .accesorios{
+    .accesorios {
         height: auto;
     }
 
-    .container-accesorio{
+    .container-accesorio {
         flex-direction: column;
         padding: 1em;
     }
 
-    .acc{
+    .acc {
         width: 90%;
     }
 
@@ -466,7 +468,7 @@ footer {
     }
 
     /* menu */
-    .menu{
+    .menu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -474,10 +476,11 @@ footer {
         position: relative;
     }
 
-    .logo-container{
+    .logo-container {
         position: relative;
     }
-    nav{
+
+    nav {
         max-width: 100%;
     }
 
@@ -493,5 +496,39 @@ footer {
 
     .ul-nav.active {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .formulario {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .accesorios {
+        height: auto;
+    }
+
+    .container-accesorio {
+        flex-wrap: wrap;
+    }
+
+    .container-cards {
+        height: auto;
+    }
+
+    .cards {
+        width: 45%;
+    }
+
+    .container-descripcion-cards{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 775px){
+
+    .cards{
+        width: 75%;
     }
 }
